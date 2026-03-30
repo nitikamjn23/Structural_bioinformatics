@@ -1,0 +1,6 @@
+1. (base) nitika@silke20:~/Desktop$ conda env list
+
+2. conda activate Clans_java_env
+3. cd../Downloads/Clans_task/
+4. ls -ltr
+5. java -Xmx4G -Dsun.java2d.uiScale=2 -jar clansKesto.jar -load herpesProteomesDali.cla.byZ_scores 
