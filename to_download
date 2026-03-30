@@ -1,0 +1,6 @@
+DATABASE
+wget link
+
+
+To create conda environment;
+conda create -n chainsaw-env python=3.11
