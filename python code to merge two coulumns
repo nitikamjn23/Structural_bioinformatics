@@ -1,0 +1,18 @@
+import pandas as pd
+
+# Load the CSV file
+input_file = 'input file name.csv'
+output_file = 'output file name.csv'
+
+# Read the data
+df = pd.read_csv(input_file)
+
+# Create a new column named 'joined_content'
+# We use .astype(str) to ensure all data is treated as text
+df['joined_content'] = df['locus_tag'].astype(str) + '\t' + df['lineage'].astype(str)
+
+# Save the updated data to a new CSV file
+df.to_csv(output_file, index=False)
+
+print(f"Success! The updated file has been saved as: {output_file}")
+~      
