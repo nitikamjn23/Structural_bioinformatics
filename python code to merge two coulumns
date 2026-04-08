@@ -16,3 +16,6 @@ df.to_csv(output_file, index=False)
 
 print(f"Success! The updated file has been saved as: {output_file}")
 ~      
+
+
+#then on terminal- python3 python_file_name.py
