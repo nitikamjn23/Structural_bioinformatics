@@ -9,7 +9,7 @@ df = pd.read_csv(input_file)
 
 # Create a new column named 'joined_content'
 # We use .astype(str) to ensure all data is treated as text
-df['joined_content'] = df['locus_tag'].astype(str) + '\t' + df['lineage'].astype(str)
+df['joined_content'] = df['locus_tag'].astype(str) + '-->' + df['lineage'].astype(str)
 
 # Save the updated data to a new CSV file
 df.to_csv(output_file, index=False)
