@@ -4,3 +4,7 @@
 3. cd../Downloads/Clans_task/
 4. ls -ltr
 5. java -Xmx4G -Dsun.java2d.uiScale=2 -jar clansKesto.jar -load herpesProteomesDali.cla.byZ_scores 
+
+
+
+For more commands- "ctrl + R" (reverse search)
