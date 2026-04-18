@@ -1,0 +1,12 @@
+conda create -n pymol_env python=3.10
+conda activate pymol_env
+conda activate
+# install anything(conda install -c conda-forge -c schrodinger pymol-bundle=2.6)
+
+
+
+
+cd pymol; ./pymol
+
+
+conda deactivate
