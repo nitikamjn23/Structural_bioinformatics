@@ -1,0 +1,8 @@
+start /wait "" PyMOL-2.3.4_0-Windows-x86_64.exe /InstallationType=AllUsers /S /D=C:\Programs\PyMOL 
+tar -jxf PyMOL-2.2.0_0-Linux-x86_64.tar.bz2
+cd pymol; ./pymol
+
+# all info - https://www.pymol.org/support.html?#installation
+fetch (PDB ID)
+#To align
+cealign membrane_protein_S11__YP_004940190__Saimiriine_betaherpesvirus_4__1535247, 9d95
