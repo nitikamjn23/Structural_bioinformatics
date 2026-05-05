@@ -10,3 +10,7 @@ cd pymol; ./pymol
 
 
 conda deactivate
+
+#to delete env
+
+conda remove --name chainsaw-env --all
