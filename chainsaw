@@ -1,0 +1,7 @@
+#Download chainsaw
+#Availability and implementation
+#github.com/JudeWells/Chainsaw.
+
+git clone https://github.com/JudeWells/chainsaw.git
+bash setup.sh
+  chainsaw protein1.pdb > --output chainsaw_protein1
