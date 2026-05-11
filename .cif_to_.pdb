@@ -1,0 +1,15 @@
+#To convert cif to pdb
+
+ 
+
+pip install gemmi
+
+ 
+
+ 
+
+ 
+
+mkdir -p pdb_out && find . -name "*.cif" -exec bash -c 'for f; do gemmi convert "$f" "pdb_out/$(basename "${f%.cif}.pdb")"; done' _ {} +
+
+ 
