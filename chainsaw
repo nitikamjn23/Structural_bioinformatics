@@ -5,3 +5,4 @@
 git clone https://github.com/JudeWells/chainsaw.git
 bash setup.sh
   chainsaw protein1.pdb > --output chainsaw_protein1
+creatte conda env
