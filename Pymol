@@ -6,3 +6,7 @@ cd pymol; ./pymol
 fetch (PDB ID)
 #To align
 cealign membrane_protein_S11__YP_004940190__Saimiriine_betaherpesvirus_4__1535247, 9d95
+
+
+
+cealign 3SKU//E//, nc_005881.2_prot_yp_024616.1_70
