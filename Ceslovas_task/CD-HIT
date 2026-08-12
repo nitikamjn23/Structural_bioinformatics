@@ -1,8 +1,0 @@
-
-#Download
-sudo apt install cd-hit
-or download from: http://weizhongli-lab.org/cd-hit/
-#Run
-cd-hit -i my_sequences.fasta -o clustered.fasta -c 0.7 -n 4
-#Validate Your Results
-grep -c ">" my_sequences.fasta
